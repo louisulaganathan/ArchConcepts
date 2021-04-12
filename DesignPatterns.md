@@ -10,4 +10,3 @@
   |Prototype|Facade|State|
   |Singleton|Proxy|Template Method|
   |||Visitor|
-  |----|----|----|
