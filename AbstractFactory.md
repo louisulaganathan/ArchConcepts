@@ -1,5 +1,5 @@
 **Participants:
-AbstractFactory [ContinentFactory]
+AbstractFactory [ContinentFactory] \n
 ConcreteFactory [AmericaContinent, AfricaContinent]
 AbstractProduct [Herbivore, Carnivore]
 ConcreteProduct [Wildbeest, Lion,  Bison,Wold]
