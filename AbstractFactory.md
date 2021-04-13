@@ -4,7 +4,7 @@
 **AbstractProduct [Herbivore, Carnivore]** <br/>
 **ConcreteProduct [Wildbeest, Lion,  Bison,Wold]** <br/>
 **ClientApp [AnimalWorld]** <br/>
-**
+
 
 **Abstract Factory**
 ``` 
