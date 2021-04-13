@@ -21,8 +21,8 @@
   
  | **Design Pattern**| **Explanation**|
  |-----------------|------------------------------------------|
- |Abstract Factory|Creates an instance of several families of classes. Provide an interface for creating families of related or dependent objects without specifying their concrete classes.|
- |Factory Method|Creates an instance of serveral derived classes.|
+ |Abstract Factory|Creates an instance of several families of classes. Define an interface for creating families of related or dependent objects without specifying their concrete classes.|
+ |Factory Method|Creates an instance of serveral derived classes. Define an interface for creating an object but let the subclasses decide which class to instantiate. |
  |Builder|Seperates the objects creation from its representations.|
  |Prototype|A fully initialized instance to be copied or cloned.|
  |Singleton| A class of which single instance can exist.|
