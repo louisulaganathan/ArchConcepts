@@ -1,9 +1,9 @@
-**Participants:
-AbstractFactory [ContinentFactory] \n
-ConcreteFactory [AmericaContinent, AfricaContinent]
-AbstractProduct [Herbivore, Carnivore]
-ConcreteProduct [Wildbeest, Lion,  Bison,Wold]
-ClientApp [AnimalWorld]
+**Participants:**<br/>
+**AbstractFactory [ContinentFactory]** <br/>
+**ConcreteFactory [AmericaContinent, AfricaContinent]** <br/>
+**AbstractProduct [Herbivore, Carnivore]** <br/>
+**ConcreteProduct [Wildbeest, Lion,  Bison,Wold]** <br/>
+**ClientApp [AnimalWorld]** <br/>
 **
 
 **Abstract Factory**
