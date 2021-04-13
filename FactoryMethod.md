@@ -1,4 +1,4 @@
-**Participants** <br/>
+**<u>Participants</u>** <br/>
 **AbstractProduct[Page]** <br/>
 **ConcreteProduct[SkillsPage, EducationPage, ExperiencePage]** <br/>
 **AbstractCreator[Document]** <br/>
