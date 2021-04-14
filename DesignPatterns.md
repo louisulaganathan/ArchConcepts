@@ -46,7 +46,7 @@
  |Interpreter|A way to include language elements in a program.|
  |Mediator|Defines simplified communication between classes.|
  |Memento|Capture and restore an object's internal state.|
- |Observer|A way of notifying change to a number of classes.|
+ |Observer[5]|A way of notifying change to a number of classes. Used when there is one-to-many relationship between objects so that when one object changes state, all its dependents are notified and updated automatically.|
  |State|Alter an object's behavior when its state changes.|
  |Strategy|Encapsulates an algorithm inside a class.|
  |Template Method|Defer the exact steps of an algorithm to the subclass|
