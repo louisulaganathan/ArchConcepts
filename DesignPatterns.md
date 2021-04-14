@@ -32,7 +32,7 @@
  | **Design Pattern**| **Explanation**|
  |-----------------|------------------------------------------|
  |Adapter|Match interfaces of different classes. Adapter pattern acts as a bridge between two incompatible interfaces. This pattern involves a class called adapter which is responsible for communication between two incompatible & independent interfaces.|
- |Bridge| Seperates an object's interface from its implementation.|
+ |Bridge| Seperates an object's interface from its implementation. The bridge pattern is used to separate abstraction from its implementation so that both can be modified independently.|
  |Decorator| Add responsibilities to objects dynamically.|
  |Facade| A single class that represents the entire subsystem.|
  |Proxy|An object representing another object.|
