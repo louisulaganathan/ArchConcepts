@@ -21,21 +21,21 @@
   
  | **Design Pattern**| **Explanation**|
  |-----------------|------------------------------------------|
- |Abstract Factory|Creates an instance of several families of classes. Define an interface for creating families of related or dependent objects without specifying their concrete classes.|
- |Factory Method|Creates an instance of serveral derived classes. Define an interface for creating an object but let the subclasses decide which class to instantiate. |
- |Builder|Seperates the objects creation from its representations.|
- |Prototype|A fully initialized instance to be copied or cloned.|
- |Singleton| Ensure a class has only one instance and provide a global point of access to it.|
+ |Abstract Factory[5]|Creates an instance of several families of classes. Define an interface for creating families of related or dependent objects without specifying their concrete classes.|
+ |Factory Method[5]|Creates an instance of serveral derived classes. Define an interface for creating an object but let the subclasses decide which class to instantiate. |
+ |Builder[3]|Seperates the objects creation from its representations.|
+ |Prototype[3]|A fully initialized instance to be copied or cloned.|
+ |Singleton[4]| Ensure a class has only one instance and provide a global point of access to it.|
  
   **Structural Design Patterns**
   
  | **Design Pattern**| **Explanation**|
  |-----------------|------------------------------------------|
- |Adapter|Match interfaces of different classes. Adapter pattern acts as a bridge between two incompatible interfaces. This pattern involves a class called adapter which is responsible for communication between two incompatible & independent interfaces.|
- |Bridge| Seperates an object's interface from its implementation. The bridge pattern is used to separate abstraction from its implementation so that both can be modified independently.|
- |Decorator| Add responsibilities to objects dynamically.|
- |Facade| A single class that represents the entire subsystem.|
- |Proxy|An object representing another object.|
+ |Adapter[4]|Match interfaces of different classes. Adapter pattern acts as a bridge between two incompatible interfaces. This pattern involves a class called adapter which is responsible for communication between two incompatible & independent interfaces.|
+ |Bridge[3]| Seperates an object's interface from its implementation. The bridge pattern is used to separate abstraction from its implementation so that both can be modified independently.|
+ |Decorator[3]| Add responsibilities to objects dynamically. The decorator pattern is used to add new functionality to an existing object without changing its structure.|
+ |Facade[5]| A single class that represents the entire subsystem.|
+ |Proxy[4]|An object representing another object.|
  
  
    **Behavioral Design Patterns**
