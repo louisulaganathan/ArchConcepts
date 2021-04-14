@@ -35,7 +35,7 @@
  |Bridge[3]| Seperates an object's interface from its implementation. The bridge pattern is used to separate abstraction from its implementation so that both can be modified independently.|
  |Decorator[3]| Add responsibilities to objects dynamically. The decorator pattern is used to add new functionality to an existing object without changing its structure.|
  |Facade[5]| A single class that represents the entire subsystem. Provide a unified interface to a set of interfaces in a subsystem|
- |Proxy[4]|An object representing another object.|
+ |Proxy[4]|An object representing another object.Provide surrogate or placeholder for another object to control access to it.|
  
  
    **Behavioral Design Patterns**
