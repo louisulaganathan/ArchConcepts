@@ -48,7 +48,7 @@
  |Strategy[4]|Encapsulates an algorithm inside a class.|
  |State[3]|Alter an object's behavior when its state changes.| 
  |Template Method[3]|Defer the exact steps of an algorithm to the subclass|
- |Mediator[2]|Defines simplified communication between classes.|
+ |Mediator[2]|Defines simplified communication between classes. Mediator Design Pattern allows multiple objects to communicate with each other without knowing each other’s structure. This pattern defines an object which encapsulates how the objects will interact with each other’s and support easy maintainability of the code by loose coupling.|
  |Interpreter[1]|A way to include language elements in a program.|
  |Memento[1]|Capture and restore an object's internal state.|
  |Visitor[1]|Defines the new operation to a class without change|
