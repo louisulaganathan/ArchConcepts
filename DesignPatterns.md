@@ -23,7 +23,7 @@
  |-----------------|------------------------------------------|
  |Abstract Factory[5]|Creates an instance of several families of classes. Define an interface for creating families of related or dependent objects without specifying their concrete classes.|
  |Factory Method[5]|Creates an instance of serveral derived classes. Define an interface for creating an object but let the subclasses decide which class to instantiate. |
- |Proxy[4]|An object representing another object.Provide surrogate or placeholder for another object to control access to it.|
+ |Sigleton[4]|Ensure a class has only one instance and provide a global point of access to it.|
  |Builder[3]|Seperates the objects creation from its representations.|
  |Prototype[3]|A fully initialized instance to be copied or cloned.|x
  
