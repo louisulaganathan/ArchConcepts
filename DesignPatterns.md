@@ -23,33 +23,33 @@
  |-----------------|------------------------------------------|
  |Abstract Factory[5]|Creates an instance of several families of classes. Define an interface for creating families of related or dependent objects without specifying their concrete classes.|
  |Factory Method[5]|Creates an instance of serveral derived classes. Define an interface for creating an object but let the subclasses decide which class to instantiate. |
+ |Proxy[4]|An object representing another object.Provide surrogate or placeholder for another object to control access to it.|
  |Builder[3]|Seperates the objects creation from its representations.|
- |Prototype[3]|A fully initialized instance to be copied or cloned.|
- |Singleton[4]| Ensure a class has only one instance and provide a global point of access to it.|
+ |Prototype[3]|A fully initialized instance to be copied or cloned.|x
  
   **Structural Design Patterns**
   
  | **Design Pattern**| **Explanation**|
  |-----------------|------------------------------------------|
+ |Facade[5]| A single class that represents the entire subsystem. Provide a unified interface to a set of interfaces in a subsystem|
  |Adapter[4]|Match interfaces of different classes. Adapter pattern acts as a bridge between two incompatible interfaces. This pattern involves a class called adapter which is responsible for communication between two incompatible & independent interfaces.|
+ |Proxy[4]|An object representing another object.Provide surrogate or placeholder for another object to control access to it.|
  |Bridge[3]| Seperates an object's interface from its implementation. The bridge pattern is used to separate abstraction from its implementation so that both can be modified independently.|
  |Decorator[3]| Add responsibilities to objects dynamically. The decorator pattern is used to add new functionality to an existing object without changing its structure.|
- |Facade[5]| A single class that represents the entire subsystem. Provide a unified interface to a set of interfaces in a subsystem|
- |Proxy[4]|An object representing another object.Provide surrogate or placeholder for another object to control access to it.|
  
  
    **Behavioral Design Patterns**
   
  | **Design Pattern**| **Explanation**|
  |-----------------|------------------------------------------|
- |Command|Encapsulates a command request as an object.|
- |Interpreter|A way to include language elements in a program.|
- |Mediator|Defines simplified communication between classes.|
- |Memento|Capture and restore an object's internal state.|
- |Observer[5]|A way of notifying change to a number of classes. Used when there is one-to-many relationship between objects so that when one object changes state, all its dependents are notified and updated automatically.|
- |State|Alter an object's behavior when its state changes.|
- |Strategy|Encapsulates an algorithm inside a class.|
- |Template Method|Defer the exact steps of an algorithm to the subclass|
- |Visitor|Defines the new operation to a class without change|
- 
+ |Observer[5]|A way of notifying change to a number of classes. Used when there is one-to-many relationship between objects so that when one object changes state, all its dependents are notified and updated automatically.| 
+ |Iterator[5]|Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.|
+ |Command[4]|Encapsulates a command request as an object.|
+ |Strategy[4]|Encapsulates an algorithm inside a class.|
+ |State[3]|Alter an object's behavior when its state changes.| 
+ |Template Method[3]|Defer the exact steps of an algorithm to the subclass|
+ |Mediator[2]|Defines simplified communication between classes.|
+ |Interpreter[1]|A way to include language elements in a program.|
+ |Memento[1]|Capture and restore an object's internal state.|
+ |Visitor[1]|Defines the new operation to a class without change|
  
