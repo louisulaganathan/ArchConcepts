@@ -44,7 +44,7 @@
  |-----------------|------------------------------------------|
  |Observer[5]|A way of notifying change to a number of classes. Used when there is one-to-many relationship between objects so that when one object changes state, all its dependents are notified and updated automatically.| 
  |Iterator[5]|Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.|
- |Command[4]|Encapsulates a command request as an object.|
+ |Command[4]|Encapsulates a command request as an object. In this pattern, a request is wrapped under an object as a command and passed to invoker object. Invoker object pass the command to the appropriate object which can handle it and that object executes the command. This handles the request in traditional ways like as queuing and callbacks.|
  |Strategy[4]|Encapsulates an algorithm inside a class.|
  |State[3]|Alter an object's behavior when its state changes.| 
  |Template Method[3]|Defer the exact steps of an algorithm to the subclass|
