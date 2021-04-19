@@ -17,7 +17,7 @@ SOLID principles are the design principles
 
 **Single Responsibility Principle**
 
-A class should take one responsibility and there should be one reason to change that class.
+A class should be responsible for single functionality and there should be one reason to change that class.
 
 Code that ignore SRP:
 ```
@@ -176,6 +176,7 @@ public class IReportGeneration
 **Liskov Subtitution Principle**
 
 you should be able to use any derived class instead of a parent class and have it behave in the same manner without modification.
+Every sub class or derived class should be substitutable for their parent class.
 
 **Ignoring LSP**
 
