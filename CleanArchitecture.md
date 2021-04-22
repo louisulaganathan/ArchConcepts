@@ -5,7 +5,7 @@ You will also find it named hexagonal, ports-and-adapters, or onion architecture
 
 ![Clean-1](https://user-images.githubusercontent.com/74425320/115637623-37ee5780-a2d6-11eb-9265-91fd2e83c82e.png)
 
-![Clean-1](https://user-images.githubusercontent.com/74425320/115637637-42105600-a2d6-11eb-9f47-75747accb3be.png)
+![Clean-2](https://user-images.githubusercontent.com/74425320/115637846-c236bb80-a2d6-11eb-92b8-61bcf764de87.png)
 
 ![Clean-3](https://user-images.githubusercontent.com/74425320/115637686-5f452480-a2d6-11eb-8dfe-5fba0bd6879f.png)
 
