@@ -1,9 +1,20 @@
 ## CLEAN ARCHITECHTURE ##
-
+Applications that follow the Dependency Inversion Principle as well as the Domain-Driven Design (DDD) principles tend to arrive at a similar architecture
 Clean Architecture is just the latest in a series of names for the same loosely-coupled, dependency-inverted architecture. 
 You will also find it named hexagonal, ports-and-adapters, or onion architecture.
 
-  Domain Driven Design DDD
+![Clean-1](https://user-images.githubusercontent.com/74425320/115637623-37ee5780-a2d6-11eb-9265-91fd2e83c82e.png)
+
+![Clean-1](https://user-images.githubusercontent.com/74425320/115637637-42105600-a2d6-11eb-9f47-75747accb3be.png)
+
+![Clean-3](https://user-images.githubusercontent.com/74425320/115637686-5f452480-a2d6-11eb-8dfe-5fba0bd6879f.png)
+
+![Clean-4](https://user-images.githubusercontent.com/74425320/115637707-6bc97d00-a2d6-11eb-9325-835dee1c19bd.png)
+
+![Clean-5](https://user-images.githubusercontent.com/74425320/115637718-71bf5e00-a2d6-11eb-9cb4-b06ac7eba16d.png)
+
+
+Domain Driven Design DDD
   
   
   ### The Core Project ###
