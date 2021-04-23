@@ -53,9 +53,10 @@ Principles to be considered for Clean architecture
    Common Exceptions, Common Interfaces
    Common Auth, Common DI, Common Logging, Common Guard Clauses
    
-  <img width="785" alt="CleanArch-Layered " src="https://user-images.githubusercontent.com/74425320/115925630-11036300-a447-11eb-91c7-6d1648818c38.png">
+ <img width="785" alt="CleanArch-Layered " src="https://user-images.githubusercontent.com/74425320/115925782-532ca480-a447-11eb-899b-6f91c8b774e0.png">
 
-<img width="1440" alt="CleanArch-FolderStructure" src="https://user-images.githubusercontent.com/74425320/115925647-182a7100-a447-11eb-8fe2-1a242fcb5545.png">
+<img width="781" alt="CleanArch-FolderStructure" src="https://user-images.githubusercontent.com/74425320/115925843-6b9cbf00-a447-11eb-842d-bc99f6ee66d7.png">
+
           
 
 Applications that follow the Dependency Inversion Principle as well as the Domain-Driven Design (DDD) principles tend to arrive at a similar architecture
