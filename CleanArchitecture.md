@@ -1,4 +1,63 @@
 ## CLEAN ARCHITECHTURE ##
+
+Principles to be considered for Clean architecture
+**Seperation of Concerns**
+    Avoid mixing different code responsibilities in same Method/class/project
+      Data Access
+      Business Rules & Domain Models
+      User Interface
+**SOLID - SRP **
+**DRY **
+**SOLID -DIP**
+
+**Domain Model is not just business logic but also**
+  A Model of the problem space composed of Entities , Interface, services & more.
+  Interface defines contracts for working with domain objects
+  Everythins in the appln depends on these interfaces & domain objects.
+  
+ ### What goes in Core ###
+ 
+ Interfaces,
+ Entities, Value objects,  Aggregates. => Domain Types
+ Domain Services. - >service contains logics/actions to be performed on multiple entities
+ Exceptions -> custom or appln exception
+ 
+ Specification = >Querying logics for repository
+ 
+ Domain Events
+ Event Handlewrs
+ 
+  ### What goes in Infrastructure ###
+  Something which is not running on your 
+  talks to something it not in your code, not in your memory space
+  Repositories, EF(Core) DB Context, Cached Repositories
+  Web API Clients
+  File System Accesssors, Logging Adaptors
+  Email/SMS Sending
+  
+  System Clock
+  Other services [s3,blocb storage]
+  
+   ### What goes in Web ###
+   Controllers, Views, Razor pages
+   ViewModels, Api Models, Binding Models.  -> DTOs
+   Filters, Binders, Tag/Html Helpers
+   
+   Other services & interfaces
+   
+   ### What goes in Shared Kernal ###
+   Sharing logics between solutions.
+   Common types between solutions will be distribute as **Nuget Packages**.
+   
+   Base Entity, Base Domain Event, Base Specification
+   Common Exceptions, Common Interfaces
+   Common Auth, Common DI, Common Logging, Common Guard Clauses
+   
+  <img width="785" alt="CleanArch-Layered " src="https://user-images.githubusercontent.com/74425320/115925630-11036300-a447-11eb-91c7-6d1648818c38.png">
+
+<img width="1440" alt="CleanArch-FolderStructure" src="https://user-images.githubusercontent.com/74425320/115925647-182a7100-a447-11eb-8fe2-1a242fcb5545.png">
+          
+
 Applications that follow the Dependency Inversion Principle as well as the Domain-Driven Design (DDD) principles tend to arrive at a similar architecture
 Clean Architecture is just the latest in a series of names for the same loosely-coupled, dependency-inverted architecture. 
 You will also find it named hexagonal, ports-and-adapters, or onion architecture.
