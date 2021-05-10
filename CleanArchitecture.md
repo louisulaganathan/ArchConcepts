@@ -53,6 +53,18 @@ Principles to be considered for Clean architecture
    Common Exceptions, Common Interfaces
    Common Auth, Common DI, Common Logging, Common Guard Clauses
    
+   
+   
+
+Entity: An object defined primarily by its identity is called an ENTITY that has significance (e.g. Customer) in the sales system is an Entity and can change over time.
+
+Value Object: Value Objects are objects that are known only by their properties and values. For example, "Customer Address" can be designed as a Value Object. Value Objects can be assigned to different Entities and are usually implemented as Immutable (e.g. date, address)
+
+Aggregate: a collection of entities or value objects that are related to each other through a Aggregate Root object
+
+Aggregate Root: Each Aggregate has a root and a boundary, Aggregate Root owns an Aggregate and serves as a gateway for all modifications within the Aggregate
+
+   
  <img width="785" alt="CleanArch-Layered " src="https://user-images.githubusercontent.com/74425320/115925782-532ca480-a447-11eb-899b-6f91c8b774e0.png">
 
 <img width="781" alt="CleanArch-FolderStructure" src="https://user-images.githubusercontent.com/74425320/115925843-6b9cbf00-a447-11eb-842d-bc99f6ee66d7.png">
